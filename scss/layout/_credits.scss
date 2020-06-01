@@ -1,0 +1,55 @@
+.plusbutton {
+    @include mini;    
+}
+
+.credits {
+    color: $text-color;
+    font-size: 12px;
+
+    &__title {
+        margin-top: 60px;
+        margin-bottom: 40px;
+        @include mobileTitle;
+    }
+
+    &__description {
+        color: $title-color;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .plusbutton{
+        @include medium;
+    } 
+
+    .credits {
+        font-size: 14px;
+
+        &__title {
+            margin-top: 70px;
+            margin-bottom: 50px;
+            font-size: 24px;
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .plusbutton {
+        width: 50px;
+        height: 50px;
+    }
+
+    .credits {
+        font-size: 16px;
+
+        &__title {
+            margin-top: 80px;
+            margin-bottom: 60px;
+            font-size: 28px;
+        }
+    }
+}

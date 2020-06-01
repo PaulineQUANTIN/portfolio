@@ -1,0 +1,53 @@
+.hobbies {
+    &__title {
+        margin-top: 60px;
+        margin-bottom: 20px;
+        @include mobileTitle; 
+    }
+
+    &__icon {
+        @include mini;
+        margin-right: 10px;
+    }
+
+    &__image {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background-color: #270A38;
+    }
+}
+
+@media (min-width: 768px) {
+    .hobbies {
+        &__title {
+            margin-top: 70px;
+            margin-bottom: 30px;
+            font-size: 24px;
+        }
+
+        &__icon {
+            @include medium;
+        }
+
+        &__image {
+            width: 120px;
+            height: 120px;
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .hobbies {
+        &__title {
+            margin-top: 80px;
+            margin-bottom: 40px;
+            font-size: 28px;
+        }
+
+        &__image {
+            width: 150px;
+            height: 150px;
+        }
+    }
+}

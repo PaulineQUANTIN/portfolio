@@ -1,0 +1,69 @@
+.header {
+    position: relative; 
+
+    &__image {
+        width: 100%;
+        // height: auto;
+    }
+
+    &__text {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -500%);
+        font-family: 'Emilys Candy', cursive;
+        color: $text-color;
+        font-size: 23px;
+    }
+}
+
+.navbar {
+    background: linear-gradient(#000000, $main-color, $nav-color);
+}
+
+.nav-link {
+    font-family: 'Emilys Candy', cursive;
+    color: $text-color;
+    font-size: 16px;
+
+    &:hover {
+        color: $title-color !important;
+    }
+    
+    &.active:hover {
+        color: $text-color !important;
+    }
+}
+
+.navbar-brand__logo {
+    width: 100px;
+}
+
+@media (min-width: 768px) {
+    .header__text {
+        transform: translate(-50%, -550%);
+        font-size: 50px;
+    }
+
+    .navbar-brand__logo {
+        width: 150px;
+    }
+
+    .nav-link {
+        font-size: 18px;
+    } 
+}
+
+@media (min-width: 992px) {
+    .header__text {
+        transform: translate(-50%, -750%);
+        font-size: 60px;
+    }
+
+    .navbar-brand__logo {
+        width: 200px;
+    }
+
+    .nav-link {
+        font-size: 20px;
+    } 
+}

@@ -1,0 +1,22 @@
+@import "base";
+
+@import "components/button";
+@import "layout/header";
+@import "layout/about";
+@import "layout/course";
+@import "layout/projects";
+@import "layout/skills";
+@import "layout/hobbies";
+@import "layout/credits";
+@import "layout/footer";
+
+@import "../node_modules/normalize-scss/sass/normalize";
+@import "../node_modules/bootstrap/scss/bootstrap-reboot";
+@import "../node_modules/bootstrap/scss/grid";
+@import "../node_modules/bootstrap/scss/utilities/display";
+@import "../node_modules/bootstrap/scss/utilities/flex";
+@import "../node_modules/bootstrap/scss/utilities/spacing";
+@import "../node_modules/bootstrap/scss/transitions";
+@import "../node_modules/bootstrap/scss/nav";
+@import "../node_modules/bootstrap/scss/navbar";
+@import "../node_modules/bootstrap/scss/utilities/text";

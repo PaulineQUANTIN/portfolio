@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "First portfolio",
+  "main": "index.js",
+  "dependencies": {
+    "autoprefixer": "^9.8.0",
+    "bootstrap": "^4.4.1",
+    "cssnano": "^4.1.10",
+    "node-sass": "^4.14.1",
+    "normalize-scss": "^7.0.1",
+    "package.json": "^2.0.1",
+    "postcss": "^7.0.31",
+    "postcss-cli": "^7.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "npx node-sass scss/main.scss css/style.css",
+    "prod": "node-sass scss/main.scss css/style.css && postcss css/style.css -o css/style.css -u autoprefixer && postcss css/style.css -o css/style.css -u cssnano"
+  },
+  "author": "Pauline Quantin",
+  "license": "ISC"
+}

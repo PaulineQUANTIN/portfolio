@@ -1,0 +1,20 @@
+$main-color: #150A1B;
+$text-color: #E5E5E5;
+$nav-color: #270A38;
+$title-color: #8724DF;
+
+@mixin mobileTitle {
+    color: $title-color;
+    font-family: 'Emilys Candy', cursive;
+    font-size: 20px;
+}
+
+@mixin mini {
+    width: 30px;
+    height: 30px;
+}
+
+@mixin medium {
+    width: 45px;
+    height: 45px;
+}

@@ -1,0 +1,56 @@
+.contact__button {
+    width: 220px;
+    height: 50px;
+    font-family: 'Emilys Candy', cursive;
+    background-color: $title-color;
+    border: 2px solid $title-color;
+    border-radius: 6px;
+    color: $text-color;
+    font-size: 26px;
+    margin-top: 60px;
+
+    & a {
+        color: $text-color;
+    }
+
+    & a:hover {
+        text-decoration: none;
+        color: $text-color;
+    }
+}
+
+@media (min-width: 768px) {
+    .contact__button {
+        width: 280px;
+        height: 60px;
+        font-size: 30px;
+        margin-top: 70px;
+
+        & a {
+            color: $text-color;
+        }
+
+        & a:hover {
+            text-decoration: none;
+            color: $text-color;
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .contact__button {
+        width: 320px;
+        height: 70px;
+        font-size: 36px;
+        margin-top: 80px;
+
+        & a {
+            color: $text-color;
+        }
+
+        & a:hover {
+            text-decoration: none;
+            color: $text-color;
+        }
+    }
+}
